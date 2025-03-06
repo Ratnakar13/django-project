@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+  <div class="col-12 d-flex justify-content-center align-item-center ">
+     <div class="circular-image-container">
+          <img class="circular-image" src="{% static 'images/me.jpg' %}" alt="Image">
+     </div>
+     
+  </div>
+<div class="col-12 text-center mt-3">
+     <h4 class="title">Hi, My Name is </h4>
+     <div class="name">
+       <h1>Bonam Ratnakar Naidu</h1>
+        <h1>I am Python Full Stack Developer </h1> 
+     </div>
+  </div>
+
+  <div class="col-12 text-center my-3"> 
+  </div>
+
+  <div class="col-12 text-center my-3"> 
+       <div class="col-12 d-flex justify-content-center align-item-center">
+         <a href="https://www.linkedin.com/in/ratnakar-naidu-bonam-8529622b8/" target="_blank" class="ms-3">
+      <img src="{% static 'images/linkedin.png' %}" alt="images/linkedin.png" width="50" height="50" class="socia_links">
+          </a>
+
+          <a href="https://github.com/Ratnakar13" target="_blank" class="ms-3">
+          <img src="{% static 'images/git.png' %}" alt="images/git.png" width="50" height="50" class="socia_links">
+          </a>
+
+          <a href="https://github.com/Ratnakar13" target="_blank" class="ms-3">
+               <img src="{% static 'images/hr.png' %}" alt="images/hr.png" width="50" height="50" class="socia_links">
+          </a>
+       </div>
+  </div>
+
+</div>
+{% endblock content1%}
